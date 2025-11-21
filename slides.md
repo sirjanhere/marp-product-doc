@@ -73,6 +73,22 @@ Marp allows **per-slide styling** using directives:
 
 ---
 
+---
+
+# Mathematical Equations (LaTeX)
+
+Below is a required block-level LaTeX equation:
+
+$$
+T(n) = 2T\left(\frac{n}{2}\right) + n
+$$
+
+And its simplified time complexity:
+
+$$
+T(n) = O(n \log n)
+$$
+
 # Code Example
 
 ```python
