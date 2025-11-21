@@ -6,7 +6,7 @@ paginate: true
 theme: default
 ---
 
-<!-- Custom Theme (inline CSS) -->
+<!-- Inline Custom Theme -->
 <style>
 section {
   font-family: Arial, sans-serif;
@@ -18,6 +18,14 @@ h1 {
 h2 {
   color: #333;
 }
+p {
+  line-height: 1.5;
+}
+code {
+  background: #eee;
+  padding: 2px 4px;
+  border-radius: 4px;
+}
 </style>
 
 # Product Documentation  
@@ -28,39 +36,47 @@ Using Marp for Technical Writing
 
 ---
 
-# Why Marp?
+# Introduction
 
-- Markdown-based documentation  
-- Version control friendly  
-- Export to PDF, PPTX, HTML  
-- Perfect for product documentation and engineering teams  
+Marp enables engineers and technical writers to create  
+**maintainable documentation** using Markdown.
+
+- Supports code blocks  
+- Supports math equations  
+- Works with version control  
+- Exports to PDF, PPTX, HTML  
 
 ---
 
-<!-- Background Image Slide -->
 <!-- _backgroundImage: url('images/bg.jpg') -->
 <!-- _backgroundFit: cover -->
 <!-- _color: white -->
 
 # Background Image Example
 
-A slide with a full background image (required).
+This slide includes a **full background image**,  
+fulfilling the assignment requirement.
 
 ---
 
-# Custom Styling Example
+# Custom Styling With Directives
 
 <!-- _color: #2d4e8a -->
 <!-- _class: lead -->
 
-This slide uses custom slide-level styling via Marp directives.
+Marp allows **per-slide styling** using directives:
+
+- Change text color  
+- Add classes  
+- Modify background  
+- Add headers/footers  
 
 ---
 
 # Code Example
 
 ```python
-def add(a, b):
-    return a + b
+def multiply(a, b):
+    return a * b
 
-print(add(3, 7))
+print(multiply(4, 6))
