@@ -48,7 +48,7 @@ Marp enables engineers and technical writers to create
 
 ---
 
-<!-- _backgroundImage: url('images/bg.jpg') -->
+![bg](images/bg.jpg)
 <!-- _backgroundFit: cover -->
 <!-- _color: white -->
 
