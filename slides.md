@@ -4,6 +4,7 @@ title: Product Documentation using Marp
 author: Sirjan Kaur Pahuja
 paginate: true
 theme: default
+math: true
 ---
 
 <!-- Inline Custom Theme -->
@@ -96,3 +97,4 @@ def multiply(a, b):
     return a * b
 
 print(multiply(4, 6))
+```
